@@ -7,7 +7,7 @@ import List from "../components/List/List.tsx";
 import useDebounce from "../hooks/useDebounce.ts";
 
 function useLists(page: any, search: any) {
-  let url = `http://localhost:3001/lists?_page=${page}&_limit=10`;
+  let url = `https://job-listing-fmxk.onrender.com/lists/?_page=${page}&_limit=10`;
   if (search) {
     url += `&q=${search}`;
   }
