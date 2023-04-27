@@ -1,0 +1,27 @@
+.search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    gap: 10px;
+}
+.search-container input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 20px;
+}
+.search-container label{
+    font-size: 20px;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    gap: 10px;
+}
